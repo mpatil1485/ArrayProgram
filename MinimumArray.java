@@ -5,7 +5,7 @@ public class MinimumArray {
 		
 		int[] a= {10,2,3333,4,5,566};
 		
-		int count;
+		int compair;
 		
 		System.out.println("Array is => " + Arrays.toString(a));
 		for(int i=0; i < a.length; i++)
@@ -14,9 +14,9 @@ public class MinimumArray {
 			{
 				if(a[i]<a[j])
 				{
-				count = a[i];
+				compair = a[i];
 				a[i] = a[j];
-				a[j] = count;
+				a[j] = compair;
 				}
 			}
 		}
